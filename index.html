@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Prepare for the Goethe-Zertifikat C1 exam on iPhone and iPad. 7 full practice exams, authentic audio, AI writing feedback, and progress analytics. Essential for university study in German, advanced workplaces, and teaching positions.">
+  <meta name="description" content="GoethePrep C1 — iOS app for Goethe-Zertifikat C1 exam prep. Seven practice exams, quick drills, audio, AI writing feedback, and stats. Download on the App Store.">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="GoethePrep C1">
   <meta name="theme-color" content="#f5f5f7">
-  <link rel="icon" href="/assets/images/app-icon.jpg">
+  <link rel="icon" href="/assets/images/app-icon.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="/assets/images/app-icon.jpg">
   <link rel="canonical" href="https://c1.goetheprep.com/">
   <title>GoethePrep C1 — Goethe-Zertifikat C1 Exam Prep (iOS)</title>
@@ -15,9 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/blog.css">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"MobileApplication","name":"GoethePrep C1","operatingSystem":"iOS","applicationCategory":"EducationApplication","description":"Goethe-Zertifikat C1 exam preparation with 7 full practice exams, audio listening, and AI writing feedback.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
-  </script>
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB13BHW7X5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -27,9 +27,10 @@
   </script>
 </head>
 <body>
+
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a href="/" class="logo">
+      <a href="#top" class="logo">
         <img src="/assets/images/app-icon.jpg" alt="" width="56" height="56" style="border-radius:12px;vertical-align:middle;margin-right:10px;">
         <span class="logo-text">GoethePrep<span class="logo-accent"> C1</span></span>
       </a>
@@ -38,7 +39,7 @@
       </button>
       <nav class="site-nav" id="site-nav">
         <a href="#features">Features</a>
-        <a href="/blog/">Blog</a>
+        <a href="blog/index.html">Blog</a>
         <a href="#faq">FAQ</a>
         <a href="#download" class="nav-cta">Download</a>
       </nav>
@@ -46,204 +47,393 @@
   </header>
 
   <main>
+
     <!-- Hero -->
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-content reveal">
           <p class="eyebrow">Goethe-Zertifikat C1 · Advanced · iOS</p>
-          <h1>Pass the Goethe C1<br>and thrive in academic German</h1>
-          <p class="hero-lead">The Goethe-Zertifikat C1 proves advanced fluency — essential for studying at German universities, working in demanding professional environments, and teaching positions. GoethePrep gives you 7 full practice exams matching the official ~3 hours 10 minutes written and ~16-minute speaking format.</p>
+          <h1>Ace the Goethe C1 exam<br>with real practice</h1>
+          <p class="hero-lead">
+            GoethePrep C1 is the iOS app built for Goethe-Zertifikat C1 preparation — seven full practice exams
+            covering Lesen, Hören, Schreiben, and Sprechen. The C1 exam demonstrates advanced proficiency for academic study and demanding professional roles,
+            taking approximately 3 hours 10 minutes written plus 16 minutes speaking. Start practising today.
+          </p>
           <div class="hero-actions">
             <a href="#download" class="app-store-badge app-store-badge--lg" aria-label="Download on the App Store">
               <svg class="app-store-badge__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
               <span class="app-store-badge__text"><small>Download on the</small><strong>App Store</strong></span>
             </a>
+            <a href="#features" class="btn btn-secondary">See features</a>
           </div>
+          <p class="ios-requirements">Requires iOS 16 or later · Optimised for iPhone and iPad</p>
         </div>
-        <div class="hero-visual reveal">
-          <img src="/assets/images/app-icon.jpg" alt="GoethePrep C1 app icon" width="280" height="280" style="border-radius:56px;box-shadow:0 24px 64px rgba(15,76,92,0.18);">
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="device-frame device-phone">
+            <div class="device-island" aria-hidden="true"></div>
+            <figure class="screenshot-placeholder" data-label="App home">
+              <div class="placeholder-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <path d="M21 15l-5-5L5 21"/>
+                </svg>
+                <span>Screenshot</span>
+                <small>Home dashboard</small>
+              </div>
+            </figure>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Trust strip -->
     <section class="trust-strip">
-      <div class="container">
-        <div class="trust-items">
-          <div class="trust-item"><strong>7</strong> Full exams</div>
-          <div class="trust-item"><strong>100</strong> Points per exam</div>
-          <div class="trust-item"><strong>4</strong> Skills tested</div>
-          <div class="trust-item"><strong>iOS</strong> iPhone &amp; iPad</div>
-        </div>
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>7</strong><span>full practice exams</span></div>
+        <div class="trust-item"><strong>100</strong><span>points per exam</span></div>
+        <div class="trust-item"><strong>4</strong><span>skills covered</span></div>
+        <div class="trust-item"><strong>iOS</strong><span>native on iPhone &amp; iPad</span></div>
       </div>
     </section>
 
-    <!-- Screenshots -->
-    <section class="section section-dark" id="screenshots">
-      <div class="container">
-        <div class="section-header center">
-          <h2>See GoethePrep C1 in action</h2>
-          <p>Preview the advanced exam experience — academic texts, complex audio, and detailed scoring.</p>
-        </div>
-        <div class="screenshot-carousel">
-          <div class="carousel-track-wrap">
-            <div class="carousel-track" id="carousel-track">
-              <div class="carousel-slide">
-                <div class="device-frame">
-                  <div class="device-screen placeholder-screen">
-                    <span>Home</span>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-slide">
-                <div class="device-frame">
-                  <div class="device-screen placeholder-screen">
-                    <span>Exam question</span>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-slide">
-                <div class="device-frame">
-                  <div class="device-screen placeholder-screen">
-                    <span>Audio player</span>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-slide">
-                <div class="device-frame">
-                  <div class="device-screen placeholder-screen">
-                    <span>Writing feedback</span>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-slide">
-                <div class="device-frame">
-                  <div class="device-screen placeholder-screen">
-                    <span>Progress stats</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Features -->
+    <!-- Features (zigzag with screenshots) -->
     <section class="section" id="features">
       <div class="container">
-        <div class="section-header center">
-          <h2>Everything you need to pass Goethe C1</h2>
-          <p>Built for the rigorous C1 standard — academic reading, extended listening, and sophisticated writing.</p>
+        <div class="section-header center reveal">
+          <p class="eyebrow">Everything you need</p>
+          <h2>Built for real Goethe C1 preparation</h2>
+          <p>Not a generic language app — every feature mirrors the official Goethe-Zertifikat C1 exam structure, timing, and scoring.</p>
         </div>
 
-        <div class="feature-row">
-          <div class="feature-text">
-            <h3>7 complete C1 exams</h3>
-            <p>Each exam follows the official Goethe-Zertifikat C1 structure — reading (70 min), listening (40 min), writing (70 min), and speaking (16 min). Prepare for over 3 hours of demanding written tasks under timed conditions.</p>
-          </div>
-          <div class="feature-visual">
-            <div class="feature-placeholder">Full exam simulation</div>
-          </div>
+        <div class="feature-showcase">
+          <article class="showcase-row reveal">
+            <div class="showcase-copy">
+              <span class="showcase-tag">Full exams</span>
+              <h3>7 official-format practice exams</h3>
+              <p>
+                Take complete C1 Modellprüfungen scored out of 100 — Lesen, Hören, Schreiben, and Sprechen
+                in one sitting, just like test day. Review your answers and track improvement across all seven.
+              </p>
+              <ul class="showcase-list">
+                <li>Authentic section timing</li>
+                <li>Score out of 100 per exam</li>
+                <li>Pause, resume, and review</li>
+              </ul>
+            </div>
+            <div class="showcase-visual">
+              <div class="device-frame device-phone">
+                <div class="device-island" aria-hidden="true"></div>
+                <figure class="screenshot-placeholder" data-label="Exam list">
+                  <div class="placeholder-inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <path d="M21 15l-5-5L5 21"/>
+                    </svg>
+                    <span>Screenshot</span>
+                    <small>7 exams overview</small>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="showcase-row reverse reveal">
+            <div class="showcase-copy">
+              <span class="showcase-tag">Quick practice</span>
+              <h3>Sharpen skills in minutes</h3>
+              <p>
+                Between full exams, jump into focused 5–15 minute drills by skill.
+                Perfect for a commute or a lunch break — no need to commit to a full session.
+              </p>
+              <ul class="showcase-list">
+                <li>Lesen, Hören, Schreiben, Sprechen</li>
+                <li>Teil-by-Teil mini sessions</li>
+                <li>Instant results</li>
+              </ul>
+            </div>
+            <div class="showcase-visual">
+              <div class="device-frame device-phone">
+                <div class="device-island" aria-hidden="true"></div>
+                <figure class="screenshot-placeholder" data-label="Quick practice">
+                  <div class="placeholder-inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <path d="M21 15l-5-5L5 21"/>
+                    </svg>
+                    <span>Screenshot</span>
+                    <small>Quick practice drill</small>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="showcase-row reveal">
+            <div class="showcase-copy">
+              <span class="showcase-tag">Audio</span>
+              <h3>Exam-quality listening built in</h3>
+              <p>
+                Hören tasks come with native-speed recordings and full playback controls.
+                Adjust speed when you're learning, then practice at real C1 exam tempo.
+              </p>
+              <ul class="showcase-list">
+                <li>Built-in audio player</li>
+                <li>Playlist per exam section</li>
+                <li>Variable playback speed</li>
+              </ul>
+            </div>
+            <div class="showcase-visual">
+              <div class="device-frame device-phone">
+                <div class="device-island" aria-hidden="true"></div>
+                <figure class="screenshot-placeholder" data-label="Audio player">
+                  <div class="placeholder-inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <path d="M21 15l-5-5L5 21"/>
+                    </svg>
+                    <span>Screenshot</span>
+                    <small>Listening exercise</small>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="showcase-row reverse reveal">
+            <div class="showcase-copy">
+              <span class="showcase-tag">Writing review</span>
+              <h3>AI corrections for your free text</h3>
+              <p>
+                Write your Schreiben answers in the app and get grammar fixes, vocabulary suggestions,
+                and a score estimate — so you learn from every mistake before the real C1 exam.
+              </p>
+              <ul class="showcase-list">
+                <li>Inline error highlighting</li>
+                <li>Explanations in plain language</li>
+                <li>Score estimate per submission</li>
+              </ul>
+            </div>
+            <div class="showcase-visual">
+              <div class="device-frame device-phone">
+                <div class="device-island" aria-hidden="true"></div>
+                <figure class="screenshot-placeholder" data-label="Writing feedback">
+                  <div class="placeholder-inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <path d="M21 15l-5-5L5 21"/>
+                    </svg>
+                    <span>Screenshot</span>
+                    <small>Writing correction</small>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="showcase-row reveal">
+            <div class="showcase-copy">
+              <span class="showcase-tag">Statistics</span>
+              <h3>Know exactly where you stand</h3>
+              <p>
+                A personal dashboard shows exam scores, skill breakdowns, study streaks, and weak areas —
+                so every session moves the needle toward your target C1 grade.
+              </p>
+              <ul class="showcase-list">
+                <li>Per-skill progress bars</li>
+                <li>Exam score history</li>
+                <li>Daily streak tracking</li>
+              </ul>
+            </div>
+            <div class="showcase-visual">
+              <div class="device-frame device-phone">
+                <div class="device-island" aria-hidden="true"></div>
+                <figure class="screenshot-placeholder" data-label="Stats dashboard">
+                  <div class="placeholder-inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <path d="M21 15l-5-5L5 21"/>
+                    </svg>
+                    <span>Screenshot</span>
+                    <small>Progress stats</small>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshot gallery -->
+    <section class="section section-dark" id="screenshots">
+      <div class="container">
+        <div class="section-header center reveal">
+          <p class="eyebrow eyebrow-light">Inside the app</p>
+          <h2>See GoethePrep C1 in action</h2>
+          <p>Practice exams, audio drills, writing feedback, and progress tracking — all on your iPhone.</p>
         </div>
 
-        <div class="feature-row feature-row--reverse">
-          <div class="feature-text">
-            <h3>Quick practice by skill</h3>
-            <p>Target specific C1 challenges — dense academic reading, rapid-fire listening comprehension, or complex essay writing. Each module can be practised in isolation for focused improvement.</p>
+        <div class="screenshot-carousel reveal">
+          <button class="carousel-btn carousel-prev" id="carousel-prev" aria-label="Previous screenshot">←</button>
+          <div class="carousel-track-wrap">
+            <div class="carousel-track" id="carousel-track">
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Home">
+                    <div class="placeholder-inner">
+                      <span>01</span>
+                      <small>Home dashboard</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Home dashboard</figcaption>
+              </figure>
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Exams">
+                    <div class="placeholder-inner">
+                      <span>02</span>
+                      <small>Exam selection</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Exam selection</figcaption>
+              </figure>
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Question">
+                    <div class="placeholder-inner">
+                      <span>03</span>
+                      <small>Question view</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Question view</figcaption>
+              </figure>
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Audio">
+                    <div class="placeholder-inner">
+                      <span>04</span>
+                      <small>Audio player</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Audio player</figcaption>
+              </figure>
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Writing">
+                    <div class="placeholder-inner">
+                      <span>05</span>
+                      <small>Writing review</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Writing review</figcaption>
+              </figure>
+              <figure class="carousel-slide">
+                <div class="device-frame device-phone carousel-device">
+                  <div class="device-island" aria-hidden="true"></div>
+                  <div class="screenshot-placeholder" data-label="Stats">
+                    <div class="placeholder-inner">
+                      <span>06</span>
+                      <small>Statistics</small>
+                    </div>
+                  </div>
+                </div>
+                <figcaption>Statistics</figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="feature-visual">
-            <div class="feature-placeholder">Skill-based practice</div>
-          </div>
+          <button class="carousel-btn carousel-next" id="carousel-next" aria-label="Next screenshot">→</button>
         </div>
 
-        <div class="feature-row">
-          <div class="feature-text">
-            <h3>Authentic audio for Hören</h3>
-            <p>C1 listening features academic lectures, expert interviews, and nuanced discussions. Train with content that demands attention to detail, implicit meaning, and complex sentence structures at native speed.</p>
-          </div>
-          <div class="feature-visual">
-            <div class="feature-placeholder">Audio listening</div>
-          </div>
-        </div>
-
-        <div class="feature-row feature-row--reverse">
-          <div class="feature-text">
-            <h3>AI writing feedback</h3>
-            <p>C1 Schreiben demands academic register, nuanced argumentation, and sophisticated grammar. The AI evaluates your texts against C1 descriptors — checking thesis development, cohesion devices, grammatical range, and lexical precision.</p>
-          </div>
-          <div class="feature-visual">
-            <div class="feature-placeholder">AI writing review</div>
-          </div>
-        </div>
-
-        <div class="feature-row">
-          <div class="feature-text">
-            <h3>Track your progress</h3>
-            <p>See your C1 readiness evolve. Detailed analytics break down performance by module and question type, helping you identify exactly which advanced skills still need refinement.</p>
-          </div>
-          <div class="feature-visual">
-            <div class="feature-placeholder">Progress dashboard</div>
-          </div>
-        </div>
+        <div class="carousel-dots" id="carousel-dots" aria-label="Screenshot navigation"></div>
       </div>
     </section>
 
     <!-- Blog preview -->
     <section class="section section-alt" id="blog">
       <div class="container">
-        <div class="section-header center">
-          <h2>From the GoethePrep blog</h2>
-          <p>Advanced preparation strategies for C1 candidates.</p>
+        <div class="section-header center reveal">
+          <p class="eyebrow">Exam guides</p>
+          <h2>Goethe C1 exam tips &amp; preparation</h2>
+          <p>Free guides on exam format, passing scores, and strategies for every skill.</p>
         </div>
-        <div class="blog-grid">
-          <a href="/blog/goethe-c1-exam-format.html" class="blog-card">
-            <h3>Goethe C1 exam format explained</h3>
-            <p>Complete guide to the C1 structure — modules, timing, question types, and how to allocate your time.</p>
+
+        <div class="blog-preview-grid reveal">
+          <a href="blog/goethe-c1-exam-format.html" class="blog-preview-card">
+            <span class="blog-tag">C1 · Format</span>
+            <h3>Goethe C1 exam format: complete guide</h3>
+            <p>Four skills, timing, Teile, and how the 100-point scale works at C1 level.</p>
           </a>
-          <a href="/blog/goethe-horen-listening-tips.html" class="blog-card">
-            <h3>C1 listening strategies</h3>
-            <p>How to decode academic lectures and follow complex arguments in the Hören module.</p>
+          <a href="blog/goethe-exam-passing-score.html" class="blog-preview-card">
+            <span class="blog-tag">Scoring</span>
+            <h3>What score do you need to pass?</h3>
+            <p>60/100 overall plus minimums in Schreiben and Sprechen explained.</p>
           </a>
-          <a href="/blog/goethe-schreiben-writing-guide.html" class="blog-card">
-            <h3>C1 writing excellence</h3>
-            <p>Techniques for writing structured, academic-level texts that score highly on all C1 criteria.</p>
+          <a href="blog/how-to-prepare-goethe-exam.html" class="blog-preview-card">
+            <span class="blog-tag">Preparation</span>
+            <h3>How to prepare step-by-step</h3>
+            <p>From level check to mock exams and exam-day checklist.</p>
           </a>
         </div>
-        <p class="center" style="margin-top:2rem;"><a href="/blog/" class="text-link">View all articles →</a></p>
+
+        <p class="blog-preview-more reveal" style="text-align:center; margin-top:1.75rem;">
+          <a href="blog/index.html" class="btn btn-secondary">View all articles</a>
+        </p>
       </div>
     </section>
 
     <!-- FAQ -->
     <section class="section" id="faq">
-      <div class="container container--narrow">
-        <div class="section-header center">
-          <h2>Frequently asked questions</h2>
+      <div class="container container-narrow">
+        <div class="section-header center reveal">
+          <p class="eyebrow">Questions</p>
+          <h2>Frequently asked</h2>
         </div>
-        <div class="faq-list">
-          <details class="faq-item">
-            <summary>What is the Goethe-Zertifikat C1?</summary>
-            <p>The Goethe-Zertifikat C1 certifies advanced German proficiency. It proves you can understand demanding texts, express yourself fluently and spontaneously, and produce well-structured academic writing. It's the standard requirement for studying at German universities, many advanced professional roles, and teaching positions.</p>
+
+        <div class="faq-list reveal">
+          <details class="faq-item" open>
+            <summary>Is this affiliated with the Goethe-Institut?</summary>
+            <p>No. GoethePrep is an independent study tool. Exam formats are modelled on official Goethe-Zertifikat structures, but we are not endorsed by the Goethe-Institut.</p>
           </details>
           <details class="faq-item">
-            <summary>How long is the Goethe C1 exam?</summary>
-            <p>The written portion takes approximately 3 hours and 10 minutes: reading (70 min), listening (40 min), and writing (70 min). The speaking exam adds about 16 minutes, conducted in pairs. Total time is around 3.5 hours.</p>
+            <summary>Which levels does the app cover?</summary>
+            <p>All six Goethe-Zertifikat levels: A1, A2, B1, B2, C1, and C2. This site focuses on C1 — the advanced certificate for academic study and demanding professional environments.</p>
           </details>
           <details class="faq-item">
-            <summary>What score do I need to pass?</summary>
-            <p>You need at least 60 out of 100 points. Each module (Lesen, Hören, Schreiben, Sprechen) must be passed independently. You can retake failed modules without repeating the entire exam.</p>
+            <summary>How long is the C1 exam?</summary>
+            <p>The Goethe-Zertifikat C1 exam takes approximately 3 hours 10 minutes for the written part (Lesen, Hören, Schreiben) plus about 16 minutes for the speaking part (Sprechen).</p>
           </details>
           <details class="faq-item">
-            <summary>How does the AI writing review work?</summary>
-            <p>Submit your academic text or essay and receive instant, detailed feedback. The AI evaluates content quality, argumentation, textual coherence, grammatical accuracy and range, and vocabulary sophistication — all calibrated to C1 expectations.</p>
+            <summary>How does the AI writing correction work?</summary>
+            <p>In the Schreiben section, you write your answers freely in German. The app highlights grammar errors, suggests better vocabulary, and gives you a score estimate — so you improve with every attempt.</p>
           </details>
           <details class="faq-item">
-            <summary>Is GoethePrep free?</summary>
-            <p>Free practice questions let you explore the app. Premium provides access to all 7 full C1 exams, unlimited AI writing feedback, and granular progress analytics.</p>
+            <summary>What score do I need to pass the real exam?</summary>
+            <p>You need at least 60 out of 100 points overall to pass the Goethe-Zertifikat C1. Each module (Lesen, Hören, Schreiben, Sprechen) is scored separately and each must be passed individually.</p>
           </details>
           <details class="faq-item">
-            <summary>Is it available on Android?</summary>
-            <p>Currently available on iPhone and iPad only. Android is in our development pipeline — subscribe to blog updates for the launch announcement.</p>
+            <summary>Is the app available on Android?</summary>
+            <p>GoethePrep is currently available for iPhone and iPad only via the App Store. An Android version is not planned at this time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is it free?</summary>
+            <p>The first full exam is free. A subscription unlocks all 7 exams, quick drills, AI writing feedback, and detailed progress stats.</p>
           </details>
         </div>
       </div>
@@ -251,36 +441,42 @@
 
     <!-- Download CTA -->
     <section class="section cta-section" id="download">
-      <div class="container cta-inner">
+      <div class="container cta-inner reveal">
         <div class="cta-copy">
-          <h2>Ready to pass Goethe-Zertifikat C1?</h2>
-          <p>Download GoethePrep on your iPhone or iPad and start practising today.</p>
-          <a href="#" class="app-store-badge app-store-badge--lg app-store-badge--light">
-            <svg class="app-store-badge__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          <h2>Ready to start preparing for C1?</h2>
+          <p>Download GoethePrep on your iPhone or iPad — select C1 level and turn spare minutes into real exam progress.</p>
+          <a href="#" class="app-store-badge app-store-badge--lg app-store-badge--light" aria-label="Download on the App Store">
+            <svg class="app-store-badge__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
             <span class="app-store-badge__text"><small>Download on the</small><strong>App Store</strong></span>
           </a>
         </div>
         <div class="cta-visual">
-          <img src="/assets/images/mascot.jpg" alt="GoethePrep mascot" style="width:220px;height:220px;border-radius:24px;object-fit:cover;box-shadow:0 12px 40px rgba(15,76,92,0.15);">
+          <img src="/assets/images/mascot.jpg" alt="GoethePrep mascot" class="cta-mascot" style="width:260px;height:260px;border-radius:24px;object-fit:cover;box-shadow:0 12px 40px rgba(15,76,92,0.15);">
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand-block">
-        <p class="footer-brand">GoethePrep<span> C1</span></p>
-        <p class="footer-tagline">Goethe-Zertifikat C1 prep for iPhone &amp; iPad.</p>
+        <p class="footer-brand">Goethe<span>Prep</span> C1</p>
+        <p class="footer-tagline">Goethe-Zertifikat C1 exam prep for iPhone &amp; iPad.</p>
       </div>
-      <nav class="footer-nav">
-        <a href="https://goetheprep.com/">All levels</a>
-        <a href="/blog/">Blog</a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="blog/index.html">Blog</a>
         <a href="#faq">FAQ</a>
+        <a href="https://goetheprep.com">All levels</a>
       </nav>
-      <p class="footer-legal">Unofficial practice tool — not affiliated with the Goethe-Institut.<br>&copy; 2026 GoethePrep · c1.goetheprep.com</p>
+      <p class="footer-legal">
+        Unofficial practice tool — not affiliated with the Goethe-Institut.<br>
+        &copy; 2026 GoethePrep · c1.goetheprep.com
+      </p>
     </div>
   </footer>
+
   <script src="/js/main.js"></script>
 </body>
 </html>
