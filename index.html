@@ -70,9 +70,11 @@
         </div>
 
         <div class="hero-visual reveal reveal-delay">
-          <div class="device-frame device-phone has-shot">
-            <figure class="screenshot-placeholder"><img src="/assets/screenshots/home.png" alt="App home" loading="lazy" /></figure>
+          <div class="device-frame device-phone has-quiz">
+            <div class="demo-quiz" id="demo-quiz" data-question='{"passage": "Die Digitalisierung verändert nicht nur die Arbeitswelt, sondern auch die Art, wie wir lernen. Während Befürworter betonen, dass digitale Medien individuelles Lernen fördern, warnen Kritiker davor, dass die ständige Verfügbarkeit von Informationen das vertiefte, konzentrierte Denken untergräbt. Entscheidend sei letztlich nicht das Medium selbst, sondern der bewusste Umgang damit.", "question": "Was ist die zentrale Aussage des Textes?", "options": [{"text": "Digitale Medien sind für das Lernen grundsätzlich schädlich."}, {"text": "Nicht das Medium, sondern der bewusste Umgang damit ist entscheidend."}, {"text": "Individuelles Lernen ist ohne digitale Medien unmöglich."}], "correct": 1, "explanationCorrect": "Der letzte Satz fasst die Kernaussage zusammen: Entscheidend ist nicht das Medium selbst, sondern wie bewusst man damit umgeht.", "explanationWrong": "Der Text bezieht keine einseitige Position. Er stellt Vor- und Nachteile gegenüber und betont, dass der bewusste Umgang entscheidend ist."}'>
+            </div>
           </div>
+          <p class="demo-quiz__hint">Try a sample question — tap an answer.</p>
         </div>
       </div>
     </section>
@@ -380,5 +382,6 @@
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/demo-quiz.js"></script>
 </body>
 </html>
